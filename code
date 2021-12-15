@@ -1,0 +1,8 @@
+n=int(input())
+k=[];m=0
+while n!=0:
+    m=n%2
+    k.append(m)
+    n=n//2
+k.reverse()
+print(*k,sep="")
